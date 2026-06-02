@@ -136,6 +136,10 @@ omc_add_subdirectory(metis-5.1.0)
 add_library(omc::3rd::metis ALIAS metis)
 target_include_directories(metis INTERFACE metis-5.1.0/include)
 
+# ColPack
+omc_add_subdirectory(ColPack)
+add_library(omc::3rd::colpack ALIAS colpack)
+
 
 omc_add_subdirectory(open62541)
 add_library(omc::3rd::opcua ALIAS opcua)
