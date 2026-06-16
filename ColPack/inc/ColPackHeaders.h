@@ -1,6 +1,6 @@
 /*******************************************************************************
     This file is part of ColPack, which is under its License protection.
-    You should have received a copy of the License. If not, see 
+    You should have received a copy of the License. If not, see
     <https://github.com/CSCsw/ColPack>
 *******************************************************************************/
 
@@ -47,38 +47,38 @@
 	#include <omp.h>
 #endif
 
-#include "Pause.h"
-#include "File.h"
-#include "Timer.h"
-#include "MatrixDeallocation.h"
-#include "mmio.h"
-#include "current_time.h"
-#include "CoutLock.h"
+#include "../src/Utilities/Pause.h"
+#include "../src/Utilities/File.h"
+#include "../src/Utilities/Timer.h"
+#include "../src/Utilities/MatrixDeallocation.h"
+#include "../src/Utilities/mmio.h"
+#include "../src/Utilities/current_time.h"
+#include "../src/Utilities/CoutLock.h"
 
-#include "StringTokenizer.h"
-#include "DisjointSets.h"
+#include "../src/Utilities/StringTokenizer.h"
+#include "../src/Utilities/DisjointSets.h"
 
-#include "GraphCore.h"
-#include "GraphInputOutput.h"
-#include "GraphOrdering.h"
-#include "GraphColoring.h"
-#include "GraphColoringInterface.h"
+#include "../src/GeneralGraphColoring/GraphCore.h"
+#include "../src/GeneralGraphColoring/GraphInputOutput.h"
+#include "../src/GeneralGraphColoring/GraphOrdering.h"
+#include "../src/GeneralGraphColoring/GraphColoring.h"
+#include "../src/GeneralGraphColoring/GraphColoringInterface.h"
 
-#include "BipartiteGraphCore.h"
-#include "BipartiteGraphInputOutput.h"
-#include "BipartiteGraphVertexCover.h"
-#include "BipartiteGraphPartialOrdering.h"
-#include "BipartiteGraphOrdering.h"
-#include "BipartiteGraphBicoloring.h"
-#include "BipartiteGraphPartialColoring.h"
-#include "BipartiteGraphBicoloringInterface.h"
-#include "BipartiteGraphPartialColoringInterface.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphCore.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphInputOutput.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphVertexCover.h"
+#include "../src/BipartiteGraphPartialColoring/BipartiteGraphPartialOrdering.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphOrdering.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphBicoloring.h"
+#include "../src/BipartiteGraphPartialColoring/BipartiteGraphPartialColoring.h"
+#include "../src/BipartiteGraphBicoloring/BipartiteGraphBicoloringInterface.h"
+#include "../src/BipartiteGraphPartialColoring/BipartiteGraphPartialColoringInterface.h"
 
-#include "RecoveryCore.h"
-#include "HessianRecovery.h"
-#include "JacobianRecovery1D.h"
-#include "JacobianRecovery2D.h"
+#include "../src/Recovery/RecoveryCore.h"
+#include "../src/Recovery/HessianRecovery.h"
+#include "../src/Recovery/JacobianRecovery1D.h"
+#include "../src/Recovery/JacobianRecovery2D.h"
 
-#include "extra.h"
+#include "../src/Utilities/extra.h"
 
 #endif
